@@ -1,6 +1,9 @@
 body{background-color: rgb(219, 219, 219);}
 .head{border: 2px solid rgb(39, 129, 126); height: 80px;
-background-color:rgb(39, 129, 126); width:100%;}
+background-color:linear-gradient((rgba(23, 121, 148, 0.267)),(rgb(15, 227, 243)),(rgb(13, 243, 204))); max-width:100%;}
+div.head{position:-webkit-sticky;
+position: sticky;
+top: 0px;}
 .name{float: left; margin-top:15px;
     padding-bottom: 25px; padding-left: 25px;
     margin-bottom:15px; color: aliceblue;
